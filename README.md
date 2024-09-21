@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  Portfolio Website<br/>
   <a href="https://my-portfolio-phi-wine-48.vercel.app/" target="_blank">silasabayomi</a>
 </h2>
 <div align="center">
@@ -8,15 +8,6 @@
 
 <br/>
 
-<center>
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
-
-</center>
 
 <h3 align="center">
     🔹
@@ -37,7 +28,6 @@ This project was built using these technologies.
 
 - React.js
 - Node.js
-- Express.js
 - CSS3
 - VsCode
 - Vercel
@@ -52,7 +42,6 @@ This project was built using these technologies.
 
 ## Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
 ## 🛠 Installation and Setup Instructions
 
