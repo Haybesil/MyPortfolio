@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />I am skilled in technologies such as
               <i>
-                <b className="purple"> Javascript, ReactJs, Firebase, NextJs and CSS. </b>
+                <b className="purple"> Javascript, ReactJs, Firebase, NextJs and Tailwind CSS. </b>
               </i>
               <br />
               <br />
@@ -35,7 +35,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              I enjoy developing solutions using frameworks like <b className="purple">React.js</b> and working with responsive design and modern web technologies. I'm passionate about learning new tools and constantly improving my craft in the ever-evolving world of web development.
+              I enjoy developing solutions using frameworks like <b className="purple">React.js, Next.js</b> and working with responsive design and modern web technologies. I'm passionate about learning new tools and constantly improving my craft in the ever-evolving world of web development.
             </p>
           </Col>
 
