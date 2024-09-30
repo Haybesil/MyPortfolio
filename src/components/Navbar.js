@@ -41,8 +41,8 @@ function NavBar() {
       }}>
         <Navbar.Brand href="/" className="d-flex items-center">
           {/* <img src={Logo} className="img-fluid logo" alt="brand" /> */}
-          <p className="text-[#CD5FF8] text-[33px] font-[700] logo">
-            S<sub className="text-[33px] font-[700]">A</sub>
+          <p className="text-[#CD5FF8] text-[33px] font-[700]">
+          𝕊<sub className="text-[33px] font-[700]">𝓐</sub>
           </p>
 
         </Navbar.Brand>
