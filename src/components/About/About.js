@@ -30,6 +30,9 @@ function About() {
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
+            data-aos="fade-up-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>

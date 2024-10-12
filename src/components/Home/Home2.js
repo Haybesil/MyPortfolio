@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
@@ -8,13 +8,22 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Home2() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={8} className="home-about-description"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -52,7 +61,10 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
+              <li className="social-icons"
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <a
                   href="https://github.com/HaybeSil"
                   target="_blank"
@@ -63,7 +75,12 @@ function Home2() {
                 </a>
               </li>
 
-              <li className="social-icons">
+              <li className="social-icons"
+                data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1500"
+                data-aos-delay="300"
+              >
                 <a
                   href="https://twitter.com/SiscoHEY"
                   target="_blank"
@@ -73,7 +90,12 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
-              <li className="social-icons">
+              <li className="social-icons"
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2500"
+                data-aos-delay="500"
+              >
                 <a
                   href="https://www.linkedin.com/in/silasabayomi/"
                   target="_blank"
@@ -83,7 +105,12 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              <li className="social-icons"
+                data-aos="fade-down"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <a
                   href="https://www.instagram.com/abayomi_silas"
                   target="_blank"
@@ -94,7 +121,12 @@ function Home2() {
                 </a>
               </li>
 
-              <li className="social-icons">
+              <li className="social-icons"
+                data-aos="zoom-in"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000"
+                data-aos-delay="700"
+              >
                 <a
                   href="https://wa.me/2348145251485"
                   style={{ color: "white" }}

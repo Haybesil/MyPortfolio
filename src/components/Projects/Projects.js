@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
@@ -9,8 +9,15 @@ import Elite from '../../Assets/Projects/Elite.png'
 import Hosting from '../../Assets/Projects/Hosting.png'
 import Review from '../../Assets/Projects/Review.png'
 import Task from '../../Assets/Projects/Task.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Projects() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -22,7 +29,10 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <ProjectCard
               imgPath={Bored}
               isBlog={false}
@@ -34,7 +44,10 @@ function Projects() {
 
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <ProjectCard
               imgPath={Affillestate}
               isBlog={false}
@@ -46,7 +59,10 @@ function Projects() {
 
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <ProjectCard
               imgPath={Elite}
               isBlog={false}
@@ -59,7 +75,10 @@ function Projects() {
 
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <ProjectCard
               imgPath={Dashboard}
               isBlog={false}
@@ -70,7 +89,10 @@ function Projects() {
             />
 
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <ProjectCard
               imgPath={Task}
               isBlog={false}
@@ -83,7 +105,10 @@ function Projects() {
 
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <ProjectCard
               imgPath={Review}
               isBlog={false}
@@ -95,7 +120,10 @@ function Projects() {
 
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <ProjectCard
               imgPath={Hosting}
               isBlog={false}

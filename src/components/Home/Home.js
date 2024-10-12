@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Home() {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -30,7 +38,9 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
               <img
                 src={homeLogo}
                 alt="home pic"
@@ -38,11 +48,14 @@ function Home() {
                 style={{ maxHeight: "450px" }}
               />
             </Col>
+
+
+
           </Row>
         </Container>
       </Container>
       <Home2 />
-    </section>
+    </section >
   );
 }
 

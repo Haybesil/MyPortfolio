@@ -1,23 +1,33 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function AboutCard() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
-    <Card className="quote-card-view">
+    <Card className="quote-card-view"
+      data-aos="fade-down-right"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Silas Abayomi Oluwafemi </span>
             from <span className="purple">Ogun State, Nigeria.</span>
-            
+
             <span className="block mt-[20px]"> I am currently employed as a React developer at Nupat Technologies, where I enjoy building dynamic web applications.</span>
-           
-           
+
+
             <span className="block mt-[20px]"> I hold a degree in Physics from Olabisi Onabanjo University, which has given me a strong analytical foundation.</span>
-           
+
             <span className="block mt-[30px]">Apart from coding, there are several activities that I love to do!</span>
-            
+
           </p>
 
 
