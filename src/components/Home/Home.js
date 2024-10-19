@@ -38,7 +38,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-left"
+            <Col md={5} style={{ paddingBottom: 20 }}   data-aos="fade-up"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000">
               <img
