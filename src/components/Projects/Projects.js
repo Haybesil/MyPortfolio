@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Affillestate from '../../Assets/Projects/Affillestate.png'
-import Bored from '../../Assets/Projects/Bored.png'
+import MyView from '../../Assets/Projects/MyView.png'
 import Dashboard from '../../Assets/Projects/Dashboard.png'
 import Elite from '../../Assets/Projects/Elite.png'
 import Hosting from '../../Assets/Projects/Hosting.png'
 import Review from '../../Assets/Projects/Review.png'
-import Task from '../../Assets/Projects/Task.png'
+import SummerCode from '../../Assets/Projects/SummerCode.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -34,12 +34,12 @@ function Projects() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
             <ProjectCard
-              imgPath={Bored}
+              imgPath={MyView}
               isBlog={false}
-              title="Bored App"
-              description="The Bored App helps users combat boredom by suggesting various tasks and activities. Users can filter tasks by categories like 'indoor,' 'outdoor,' and 'creative,' while also saving their favorites for easy access. Built with React.js, this app offers a clean and intuitive interface for an enhanced user experience."
-              ghLink="https://github.com/Haybesil/Bored"
-              demoLink="https://bored-ten-sigma.vercel.app/"
+              title="Customer Rating App for Service Providers"
+              description="This platform enables users to share feedback on their experiences, helping businesses gauge customer satisfaction and improve their offerings. The app features a user-friendly interface where customers can select services, provide ratings, and leave comments. With this tool, companies can gain valuable insights into their service quality and make data-driven decisions to enhance customer experiences"
+              ghLink="https://github.com/geecoder/my-view-app"
+              demoLink="https://my-view-app-vert.vercel.app/"
             />
 
           </Col>
@@ -94,12 +94,12 @@ function Projects() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
             <ProjectCard
-              imgPath={Task}
+              imgPath={SummerCode}
               isBlog={false}
-              title="Task Manager"
-              description="A task manager application featuring user authentication with Firebase. Users can create, manage, and track their tasks effortlessly. The app includes features like task categorization, deadline reminders, and a clean, responsive design, making task management efficient and straightforward."
-              ghLink="https://github.com/Haybesil/React-Todo"
-              demoLink="https://react-todo-two-red.vercel.app/"
+              title="Summer Code Camp Page"
+              description="The Summer Code Camp page is designed to provide prospective participants with all the essential information about the coding workshops offered for children. The page highlights key details such as the camp's schedule, curriculum, and registration process. It features a clean and visually appealing layout with engaging content, ensuring that both parents and children can easily navigate and learn about the camp offerings. Key sections include a brief overview of the camp's goals, an outline of the different coding courses available, testimonials from past participants, and a simple yet effective registration form. The page is fully responsive, providing an optimized experience on both desktop and mobile devices, and is aimed at encouraging sign-ups and enhancing overall user engagement."
+              ghLink="https://github.com/NUPAT-TECHNOLOGIES/Nupat-africa-website"
+              demoLink="https://nupat.africa/summer-code-camp"
             />
 
 
