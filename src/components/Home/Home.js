@@ -38,15 +38,16 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}   data-aos="fade-up"
+            <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-up"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000">
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                className="img-fluid animate-ping lg:animate-bounce"
+                style={{ maxHeight: "450px", animationDuration: "10s" }}
               />
+
             </Col>
 
 
