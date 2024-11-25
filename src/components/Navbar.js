@@ -100,7 +100,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://www.linkedin.com/posts/silasabayomi_react-emailjs-webdevelopment-activity-7227952483141132288-bd7i?utm_source=share&utm_medium=member_android"
+                href="https://www.linkedin.com/posts/silasabayomi_reactjs-nextjs-cleancode-activity-7265647247843872770-Fo5a?utm_source=share&utm_medium=member_desktop"
                 target="_blank"
                 rel="noreferrer" 
                 className="flex flex-col items-center"
